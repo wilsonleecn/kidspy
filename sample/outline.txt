@@ -1,0 +1,17 @@
+1. 介绍turtle
+2. 简单编程
+	1.  import turtle
+	2.  起名 = turtle.Turtle()
+	3.  turtle.done()  complete and do not close screen
+	4.  shape('turtle')
+	5.  method: forward(), backward()
+	6.  clock, angle 90/180/270/360 需要图
+	7.  left(), right() 例程
+	8.  画50方框
+	9.  画300方框
+	10. 简化，用integer variable 简化修改方框大小(Side length)
+	11. 画矩形rectangle
+	12. 简化，用list，画第一个，改变边长后再画一个
+	13. 用tuple， 画第一个，改变边长后 出错
+	14. 用map进一步简化
+	15. 还能怎么简化？
