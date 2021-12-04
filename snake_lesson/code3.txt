@@ -1,0 +1,36 @@
+import pygame
+
+# define variables
+game_over = False
+
+blue = (0, 0, 255)
+
+#init
+pygame.init()
+dis = pygame.display.set_mode((400, 300))
+pygame.display.set_caption('Snake game by a genius')
+
+#background color
+dis.fill(blue)
+pygame.display.flip()
+
+#game loop
+while game_over == False:
+    for event in pygame.event.get():
+        #check quit
+        if event.type == pygame.QUIT:
+            game_over = True
+
+#quit
+pygame.quit()
+quit()
+
+
+=========
+
+white = (255, 255, 255)
+yellow = (255, 255, 102)
+black = (0, 0, 0)
+red = (213, 50, 80)
+green = (0, 255, 0)
+lightblue = (50, 153, 213)

@@ -1,0 +1,21 @@
+import pygame
+
+#init
+pygame.init()
+dis = pygame.display.set_mode((400, 300))
+pygame.display.set_caption('Snake game by a genius')
+
+#game loop
+game_over=False
+
+while not game_over:
+    for event in pygame.event.get():
+        #check quit
+        if event.type==pygame.QUIT:
+            game_over=True
+
+time.sleep(2)
+
+#quit
+pygame.quit()
+quit()
